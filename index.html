@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul id="menu">
+  </ul>
+  <!-- <input type="password" name="username">
+<script>  
+  const inputs = document.getElementsByName('username');
+ // console.log(inputs[0]); // Outputs: <input type="text" name="username">
+</script> -->
+<!-- <div class="highlight">Highlighted text</div>
+<div class="highlight">Another highlight</div>
+<script>
+  const highlights = document.getElementsByClassName('highlight');
+  //console.log(highlights.length); // Outputs: 2
+</script> -->
+<!-- <div id="parent">
+  <p id="child"> 
+    I am a child</p>
+</div>
+<script>
+  const child = document.getElementById('child');
+  const parent = child.parentElement;
+  console.log(parent.id); // Outputs: parent
+</script> -->
+
+
+
+<!-- Adding an element to a div -->
+<script>
+
+// let div= document.createElement('div');
+// div.id="myDiv";
+// div.className='note';
+
+// let h1=createElement('h1');
+// h1.textContent="Add element h1 to the Div";
+// div.appendChild(h1);
+// document.body.appendChild(div);
+
+
+
+//Creating a script element and calling this Fxn
+
+// function loadjsasnc(url){
+// let script=document.createElement('script');
+// script.src=url;
+// script.async=true;
+// document.body.appendChild(script);
+// }
+
+// loadjsasnc('/javascript.js');
+
+
+
+// Basic appendChild()
+
+function createMenuItem(name){
+let li= document.createElement('li')
+li.textContent=name;
+return li;
+}
+
+const menu=document.querySelector('#menu');
+menu.appendChild(createMenuItem('Home'));
+menu.appendChild(createMenuItem('About'));
+menu.appendChild(createMenuItem('Services'));
+</script>
+
+
+</body>
+</html>
